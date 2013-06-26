@@ -74,6 +74,11 @@ button{
   cursor:pointer;
 }
 
+.tweet{
+  display:inline;
+  margin:0 0 0 10px;
+}
+
 footer{
   font-size:12px;
   color:#bbb;
