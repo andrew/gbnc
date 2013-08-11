@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html, body{
+  height:100%;
+}
+
+body{
+  margin:0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:15px;
+}
+
+section{
+  min-height:500px;
+  padding:50px;
+}
+
+#intro{
+  background:blue;
+}
+
+#speakers{
+  background:red;
+}
+
+#venue{
+  background:green;
+}
+
+#tickets{
+  background:yellow;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+nav a.active{
+  background:blue;
+}
+
+footer{
+  height:300px;
+}
