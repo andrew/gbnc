@@ -132,7 +132,8 @@ footer .content{
 }
 
 footer form{
-  margin-top:20px;
+  margin-top:10px;
+  margin-right:20px;
   float:right;
 }
 
@@ -185,6 +186,36 @@ hr {
   width: 150px;
   height: 150px; 
   background:#ccc;
+}
+
+.organiser{
+  width:50px;
+  margin:10px;
+  float:left;
+  text-align:center;
+}
+
+.avatar {
+  display:inline-block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+}
+
+#teabass{
+  background:url(images/teabass.jpeg);
+}
+
+#dscape{
+  background:url(images/dscape.jpeg);
+}
+
+#olizilla{
+  background:url(images/olizilla.png);
+}
+
+#britishnodeconf{
+  background:url(images/britishnodeconf.png);
 }
 
 .center{
