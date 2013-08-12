@@ -38,7 +38,7 @@ section .content{
 }
 
 section .content h2{
-  margin-top:30px;
+  margin-top:40px;
 }
 
 #tickets .content{
@@ -189,4 +189,36 @@ hr {
 
 .center{
   text-align:center;
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+  .title{
+    padding:0 20px;
+  }
+  
+  .date{
+    padding:0 20px;
+  }
+  
+  nav ul, nav li{
+    float:left;
+    margin:0;
+    padding:0 0 5px;
+  }
+  
+  .speaker{
+    width:80px;
+    margin:10px;
+    float:left;
+    text-align:center;
+  }
+
+  .circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px; 
+    background:#ccc;
+  }
 }
