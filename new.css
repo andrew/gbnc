@@ -23,18 +23,22 @@ body{
 
 section{
   min-height:500px;
-  padding:300px 30px 0;
+  padding:300px 0px 0;
 }
 
 section .content{
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   background:rgba(255,255,255,0.9);
-  padding:0 20px;
+  padding:0 40px;
   max-width:900px;
   margin:0 auto;
   font-size:16px;
   clear:both;
   overflow: auto;
+}
+
+section .content h2{
+  margin-top:30px;
 }
 
 #tickets .content{
@@ -47,7 +51,7 @@ section .content{
 }
 
 #tito-register-form{
-  width:80%;
+  width:95%;
   background-color:#fff;
   min-height:100px;
   margin-bottom:50px;
