@@ -17,19 +17,19 @@ body{
 }
 
 section{
-  height:500px;
+  min-height:500px;
   padding:0 30px;
   background-position:top center;
   background-size:cover;
 }
 
 section .content{
-  background:rgba(255,255,255,0.8);
+  background:rgba(255,255,255,0.9);
   min-height:480px;
-  text-shadow:1px 1px 15px rgba(0,0,0,0.2);
   padding:10px 20px;
   max-width:900px;
   margin:0 auto;
+  font-size:18px;
 }
 
 #intro{
@@ -46,7 +46,28 @@ section .content{
 }
 
 #tickets{
+  min-height:350px;
   background-image:url(images/night.jpg);
+}
+
+#tickets .content{
+  padding-top:10px;
+  min-height:350px;
+}
+
+#tickets .content p{
+  text-align:center;
+}
+
+
+#tito-register-form{
+  width:80%;
+  background-color:#fff;
+  min-height:100px;
+}
+
+#tito-register-form form{
+  width:100%;
 }
 
 nav {
@@ -98,15 +119,65 @@ nav a:hover{
   color:#00F;
 }
 
+.content h3{
+  margin:10px 0 0;
+}
+
+.content h3 + p{
+  margin:5px 0 15px;
+}
+
 footer{
-  height:100px;
+  min-height:120px;
   background:#222;
   color:#fff;
 }
 
 footer .content{
   text-shadow:1px 1px 15px rgba(0,0,0,0.2);
-  padding:10px 20px;
+  padding:10px 0 10px 20px;
   max-width:900px;
   margin:0 auto;
+}
+
+footer form{
+  margin-top:20px;
+  float:right;
+}
+
+footer input{
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+footer input, button{
+  border:none;
+  padding:5px 20px;
+  font-size:24px;
+  font-family:Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin:0;
+}
+
+footer button{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color:#800000;
+  color:#fff;
+  cursor:pointer;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
