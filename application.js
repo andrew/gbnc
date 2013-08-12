@@ -19,6 +19,6 @@ jQuery(document).ready(function ($) {
   $('nav a').click(function (e) {
     link = $(this)
     e.preventDefault();
-    $('body').animate({scrollTop: $(link.attr('href')).offset().top}, 500);
+    $('html,body').animate({scrollTop: $(link.attr('href')).offset().top}, 500);
   });
 });
