@@ -112,11 +112,11 @@ nav a{
   padding:10px;
   margin:0 10px;
   font-size:24px;
-  color:#F00;
+  color:#999;
 }
 
 nav a:hover{
-  color:#00F;
+  color:#F00;
 }
 
 .content h3{
