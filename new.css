@@ -14,41 +14,27 @@ body{
   margin:0;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size:15px;
+  background: url(images/square.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 section{
   min-height:500px;
-  padding:0 30px;
-  background-position:top center;
-  background-size:cover;
+  padding:300px 30px 0;
 }
 
 section .content{
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   background:rgba(255,255,255,0.9);
-  min-height:480px;
-  padding:10px 20px;
+  padding:0 20px;
   max-width:900px;
   margin:0 auto;
   font-size:16px;
-}
-
-#intro{
-  padding-top:130px;
-  background-image:url(images/tube.jpg);
-}
-
-#speakers{
-  background-image:url(images/laptop.jpg);
-}
-
-#venue{
-  background-image:url(images/square.jpg);
-}
-
-#tickets{
-  min-height:350px;
-  background-image:url(images/night.jpg);
+  clear:both;
+  overflow: auto;
 }
 
 #tickets .content{
@@ -64,6 +50,7 @@ section .content{
   width:80%;
   background-color:#fff;
   min-height:100px;
+  margin-bottom:50px;
 }
 
 #tito-register-form form{
@@ -194,4 +181,8 @@ hr {
   width: 150px;
   height: 150px; 
   background:#ccc;
+}
+
+.center{
+  text-align:center;
 }

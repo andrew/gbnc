@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     $('nav a[href="#'+section.attr('id')+'"]').addClass('active')
   }
 
-  $('section')
+  $('div')
     .waypoint(function(direction) {
       if (direction === 'down') { changeHeading($(this)) }
     }, { offset: 91 })
@@ -20,10 +20,5 @@ jQuery(document).ready(function ($) {
     link = $(this)
     e.preventDefault();
     $('body').animate({scrollTop: $(link.attr('href')).offset().top}, 500);
-  });
-
-  $.stellar({
-    horizontalScrolling: false,
-    verticalOffset: 40
   });
 });
