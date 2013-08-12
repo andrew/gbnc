@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+/*
+  red: #F00
+  grey: #666
+  blue: #004080
+*/
+
 html, body{
   height:100%;
 }
@@ -11,24 +17,36 @@ body{
 }
 
 section{
-  min-height:500px;
-  padding:50px;
+  height:500px;
+  padding:0 30px;
+  background-position:top center;
+  background-size:cover;
+}
+
+section .content{
+  background:rgba(255,255,255,0.8);
+  min-height:480px;
+  text-shadow:1px 1px 15px rgba(0,0,0,0.2);
+  padding:10px 20px;
+  max-width:900px;
+  margin:0 auto;
 }
 
 #intro{
-  background:blue;
+  padding-top:130px;
+  background-image:url(images/tube.jpg);
 }
 
 #speakers{
-  background:red;
+  background-image:url(images/laptop.jpg);
 }
 
 #venue{
-  background:green;
+  background-image:url(images/square.jpg);
 }
 
 #tickets{
-  background:yellow;
+  background-image:url(images/night.jpg);
 }
 
 nav {
@@ -40,10 +58,55 @@ nav {
   z-index: 100;
 }
 
+.title, .date{
+  float:left;
+  padding:24px 0px 24px 30px;
+}
+.title h1{
+  display:inline;
+  font-size:30px;
+}
+.date{
+  line-height:32px;
+  color:#666;
+  padding:30px 0px 30px 30px;
+}
+
+nav ul{
+  float:right;
+}
+
+nav li{
+  list-style:none;
+  margin:10px;
+}
+
 nav a.active{
-  background:blue;
+  font-weight:bold;
+  color:#F00;
+}
+
+nav a{
+  text-decoration:none;
+  padding:10px;
+  margin:0 10px;
+  font-size:24px;
+  color:#F00;
+}
+
+nav a:hover{
+  color:#00F;
 }
 
 footer{
-  height:300px;
+  height:100px;
+  background:#222;
+  color:#fff;
+}
+
+footer .content{
+  text-shadow:1px 1px 15px rgba(0,0,0,0.2);
+  padding:10px 20px;
+  max-width:900px;
+  margin:0 auto;
 }

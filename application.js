@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
   $('section')
     .waypoint(function(direction) {
       if (direction === 'down') { changeHeading($(this)) }
-    }, { offset: 1 })
+    }, { offset: 91 })
     .waypoint(function(direction) {
       if (direction === 'up') { changeHeading($(this)) }
     }, { offset: -1 });
