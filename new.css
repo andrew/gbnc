@@ -38,12 +38,11 @@ section .content{
 }
 
 section .content h2{
-  margin-top:40px;
+  margin:25px 0 25px;
 }
 
-#tickets .content{
-  padding-top:10px;
-  min-height:350px;
+#tickets{
+  padding-bottom:2em;
 }
 
 #tickets .content p{
