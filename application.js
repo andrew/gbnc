@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
   $('div')
     .waypoint(function(direction) {
       if (direction === 'down') { changeHeading($(this)) }
-    }, { offset: 91 })
+    }, { offset: 92 })
     .waypoint(function(direction) {
       if (direction === 'up') { changeHeading($(this)) }
     }, { offset: -1 });
@@ -19,6 +19,6 @@ jQuery(document).ready(function ($) {
   $('nav a').click(function (e) {
     link = $(this)
     e.preventDefault();
-    $('html,body').animate({scrollTop: $(link.attr('href')).offset().top}, 500);
+    $('html,body').animate({scrollTop: $(link.attr('href')).offset().top - $('nav').height() + 10}, 400);
   });
 });

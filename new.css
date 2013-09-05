@@ -20,7 +20,10 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
-
+a{
+  text-decoration: none;
+  color:#F00;
+}
 section{
   min-height:500px;
   padding:300px 0px 0;
@@ -223,6 +226,13 @@ hr {
 
 .center{
   text-align:center;
+}
+
+.vcard .org {
+  font-weight: bold;
+}
+#venue .vcard{
+  margin-bottom: 2em;
 }
 
 @media only screen 
