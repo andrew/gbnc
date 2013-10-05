@@ -303,4 +303,24 @@ and (max-width : 480px) {
   .speaker{
     margin:0 10px 10px 0;
   }
+  .speaker .avatar {
+    width:130px;
+    height: 130px;
+  }
+
+  .schedule .time{
+    font-size: 1.2em;
+    /*display: block;*/
+  }
+  .schedule .avatar{
+    /*margin-left: 0;*/
+    width:30px;
+    height: 30px;
+    vertical-align: bottom;
+  }
+  .schedule h3 {
+    /*display: block;*/
+/*    font-size: 1.2em;*/
+    /*margin-left: 10px;*/
+  }
 }
